@@ -68,12 +68,18 @@ font-weight: bold;
 .products {
   display: flex;
   flex-direction: row;
+  justify-content: center;
 }
 
-.products .item .img{
+.products .item img{
   height: 9rem;
   width: auto;
   padding: 2rem;
   border: 1px;
   margin-top: 3rem;
+
+}
+
+.products .item h3{
+
 }
