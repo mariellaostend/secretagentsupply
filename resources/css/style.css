@@ -1,13 +1,14 @@
 html {
   font-size: 18px;
   font-family: Helvetica, sans-serif;
+  width:1024px;
   }
 
 .logo{
   display: inline-flex;
   background-color: black;
   color: white;
-  padding-left: 3rem;
+  /*padding-left: 3rem;*/
   width: 100%;
   align-items: center;
   font-size: 1rem;
@@ -28,6 +29,8 @@ html {
 
 .banner {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
   height:25rem;
   display: flex;
   align-items: center;
@@ -57,29 +60,69 @@ font-weight: bold;
   width:100%;
   color: white;
   display: inline-flex;
-  justify-content: space-around;
+  justify-content: space-between;
+  font-size: 1.5rem;
 }
 
 .menu nav span {
-  padding-left: 4rem;
-  padding-left: 4rem;
+  padding-left: 2rem;
+  padding-left: 2rem;
 }
 
 .products {
-  display: flex;
-  flex-direction: row;
+  display: inline-flex;
+  width: 100%;
   justify-content: center;
+}
+
+h4 {
+  font-size: 1.5rem;
 }
 
 .products .item img{
   height: 9rem;
   width: auto;
   padding: 2rem;
-  border: 1px;
-  margin-top: 3rem;
+  border: 3px solid black;
+  margin: 3rem 1rem 0rem 1rem;
 
 }
 
-.products .item h3{
 
+.products .item h4 {
+    background-color: black;
+    color: white;
+    width: auto;
+    text-align: center;
+    padding: 0.5rem 0rem;
+    border: 2px solid black;
+    margin: 0rem 1rem 0rem 1rem;
+}
+
+
+.info {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.info .location h4, .info .hours h4{
+  background-color: black;
+  color: white;
+  width: 10rem;;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  color: white;
+  width:100%;
+  height: 5rem;
+  margin-top: 4rem;
+  text-align: left;
+  justify-content: center;
 }
