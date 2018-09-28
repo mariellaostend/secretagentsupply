@@ -1,7 +1,7 @@
 html {
   font-size: 18px;
   font-family: Helvetica, sans-serif;
-  width:1024px;
+  width:1104px;
   }
 
 .logo{
@@ -12,6 +12,7 @@ html {
   width: 100%;
   align-items: center;
   font-size: 1rem;
+  padding-left: 4rem
 
 }
 
@@ -40,7 +41,7 @@ html {
   background-color: black;
   color: white;
   width: 20rem;
-  margin-left: 3rem;
+  margin-left: 4rem;
   padding: 2rem 3rem;
 }
 
@@ -60,7 +61,7 @@ font-weight: bold;
   width:100%;
   color: white;
   display: inline-flex;
-  justify-content: space-between;
+  justify-content: center;
   font-size: 1.5rem;
 }
 
@@ -81,11 +82,10 @@ h4 {
 
 .products .item img{
   height: 9rem;
-  width: auto;
+  width: 10rem;
   padding: 2rem;
   border: 3px solid black;
   margin: 3rem 1rem 0rem 1rem;
-
 }
 
 
@@ -103,7 +103,7 @@ h4 {
 .info {
   display: inline-flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .info .location h4, .info .hours h4{
@@ -125,4 +125,5 @@ footer {
   margin-top: 4rem;
   text-align: left;
   justify-content: center;
+  padding-left: 4rem;
 }
