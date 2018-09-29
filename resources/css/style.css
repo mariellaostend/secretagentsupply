@@ -1,6 +1,7 @@
 html {
   font-size: 18px;
   font-family: Helvetica, sans-serif;
+  min-width: 300px;
 
   }
 
@@ -78,11 +79,16 @@ font-weight: bold;
   display: inline-flex;
   width: 100%;
   justify-content: center;
+  align-self: center
 }
 
 h4 {
   font-size: 1.5rem;
 }
+
+/*.products .item {
+  width: 30%;
+}*/
 
 .products .item img{
   height: 9rem;
@@ -156,4 +162,49 @@ footer {
   align-content: center;
   font-size: 1.5rem;
 }
+
+#glasses {
+  display: hidden;
+  visibility:hidden;
+}
+}
+
+@media only screen and (max-width:950px){
+
+  .banner {
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:25rem;
+    display: flex;
+    align-items:flex-end;
+  }
+
+  .banner .newarrivals {
+    background-color: black;
+    color: white;
+    width: 100%;
+    padding: 2rem 3rem;
+    margin: 0px;
+  }
+
+  #glasses, #watch{
+    display: hidden;
+    visibility:hidden;
+  }
+
+  #pen{
+    width:90%;
+  }
+
+  .info {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  footer {
+    text-align: center;
+  }
 }
